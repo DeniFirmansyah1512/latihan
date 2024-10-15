@@ -1,0 +1,19 @@
+<HTML>
+<head>
+    <title>inijudul</title>
+</head>
+<body>
+    menu makanan dengan UL
+<ul>
+        <li>Bakso
+        <li>sate
+        <Li>Siomay
+            <UL><br>
+                Menu minuman dengan OL   
+<ol>
+      <Li>es jeruk
+    <li>es teler
+    <LI>es campur
+    </ol>
+</body>
+</HTML>  

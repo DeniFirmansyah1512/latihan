@@ -1,0 +1,28 @@
+<HTML>
+<HEAD>
+    <TITLE>ini judul</TITLE>
+    <BODY>
+        salam hangat
+        <HR>
+            Dari Eyang Poetri
+            <HR WIDHT="5%" SIZE="5" ALIGN="CENTER" NOSHADE>
+            <HR WIDHT="10%" SIZE="10" ALIGN="CENTER" NOSHADDE>
+            <HR WIDHT="20%" SIZE="20" ALIGN="CENTER" NOSHADE>
+            <HR WIDHT="500%" SIZE="20" ALIGN="CENTER">
+                Eyang poetri adalah seorang
+                <CENTER>
+                    pemdekar sakti dari jogja
+                </CENTER>
+                yang gemar makan 
+                di angkringan tugu<BR><BR>
+    <B>petuah Eyang poetri</B><BR>
+        <I>Setiap permasalahan hidup</I><BR>
+            <U>Pastiselalu ada jalan keluarnya</U>
+            <BR>
+                <B><U>Yang penting adalah</U><BR>
+                    <I>selalu berpikiran terbuka</I></B><BR><BR>
+                        <SMALL>Dari kecil</SMALL><BR>
+                            Lalu menjadi sedang<BR>
+                                <BIG>Dan akhir nya menjadi besar</BIG>
+    </BODY>
+</HTML>

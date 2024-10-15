@@ -1,0 +1,21 @@
+<HTML>
+<HEAD>
+    <TITLE>ini judul</TITLE>
+</HEAD>
+<body>
+    percobaan yang <del>salah</del><br>
+    <tt>Senyawa dan satuan</tt><br>
+    H<sub>2</sub>SO<sub>4</sub><br>
+    Satuan luas adalah meter<sup>2</sup><br>
+    Satuan volume adalah meter <sup>3</sup><br><br>
+    <pre>
+        eyang poetri melakukan percobaan 
+        di boemi parahyangan
+        untuk menambah wawasan dan kesakitan
+    </pre>
+    ini tanpa efek FONT<br>
+    <font face="arial"size="5" color="red">
+        ini dengan efek font
+    </font>
+</body>
+</HTML>
