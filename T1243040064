@@ -1,0 +1,45 @@
+<HTML>
+      <HEAD>
+        <title>CV</title>
+      </HEAD>
+
+      <body>
+        <h1 ALIGN="CENTER">CURICULUM VITAE</h1>
+        <HR>
+            <img src="foto.jpg.JPG" ALIGN="RIGHT" WIDHT="200" HEIGHT="300">
+            Nama    : Deni Firmansyah<br>
+            Alamat  : jalan jendral sudirman no 18<BR>
+            NO telp : 087826318036<br>
+            Email   : deni firmansyah1512@gmail.com<BRr><BR>
+
+        <B><U>DESKKRIPSI
+
+         Perkenalkan nama saya DeniFirmansyah mahasiswa baru di universitas pasundan.
+         saya masuk di jurusan teknik informatika saya anak terakhir dari 4 bersaudara.
+         hobi saya bermain game mobile legend<br><br>
+
+         <b><U>PENDIDIKAN</U></b><BR><BR>
+       <LI>SD : SDN 1 CIAMIS</LI>
+       <LI>SMP : SMP NEGERI 5 CIAMIS</LI>
+       <LI>SMK : SMKN  1 CIAMIS</LI>
+         </UL>
+
+         <B><U>SEMINAR/WORKSHOP</U></B><BR>
+            <OL>
+                <LI>...</LI>
+                <li>...</li>
+                <LI>...</LI>
+            <OL>
+                
+         <B><U>PELATIHAN</U></B>
+        <OL>
+                <LI>...</LI>
+        </OL>
+ 
+        <B><U>BAHASA PEMROGRAMAN</U></U>
+            <uL>
+                <LI>HTML></LI>
+                <LI>CSS</LI>
+                </uL>
+        <body>
+     </html>
