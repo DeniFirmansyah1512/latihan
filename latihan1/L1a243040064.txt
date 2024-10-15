@@ -1,0 +1,9 @@
+<HTML>  
+<HEAD>
+<TITLE>inijudul<TITLE>
+<HEAD>
+<BODY GCOLOUR="aqua"  <!- ini adalah keterangan yang di tulis
+        dengan di apit penanda komentar dan tidak di tampilkan di web browser->
+        Ini isinya :)
+</BODY>
+</HTML>
