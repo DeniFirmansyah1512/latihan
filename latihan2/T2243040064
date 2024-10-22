@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV TABEL</title>
+    </head>
+    <body>
+                <table border="" cellspacing="4" cellpading="20" bgcolor=red>
+            </tr>
+            <th  colspan="10" bgcolor="PINK">Pendidikan Formal</th>
+        </tr>
+              <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td>Deni Firmansyah </td>
+                    <td rowspan="5"><image src="foto.jpg.jpg"  height="200px" widht=200px></image>
+              </tr>
+              <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>Laki Laki</td>
+              </tr>
+              <tr>
+                <td>Alamat </td>
+                <td>:</td>
+                <td>Jalan jendral sudirman ciamis</td>
+              </tr>
+              <tr>
+                <td>agama</td>
+                <td>:</td>
+                <td>Islam</td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td>Deni Firmansyah</td>
+                <tr>
+                <th colspan="10" bgcolor="#E4C087">Pendidikan Formal</th>
+                </tr>
+                <td colspan="10"> - SD 1 Ciamis<p>-Smp 5 Ciamis</p><p>-SMKN 1 CIAMIS</p><p>Universitas Pasundan Bandung</p>
+                <tr>
+                <th colspan="10" bgcolor="RED">Hobby</th>
+                </tr>
+            <tr>
+                 <td> <img src="mole.jpg.jpeg" height="200px" widht="150px"</d></td>
+                 <td> <img src="renang.jpg.jpg" height="200px" width="200px" </d></td>
+            </tr>
+            <body>
+        <html>
+
+
+                            

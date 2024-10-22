@@ -4,9 +4,14 @@
       </HEAD>
 
       <body>
+       <link rel="stylesheeth" verdana="style.css">
+    
+
         <h1 ALIGN="CENTER">CURICULUM VITAE</h1>
+        
         <HR>
             <img src="foto.jpg.JPG" ALIGN="RIGHT" WIDHT="200" HEIGHT="300">
+         
             Nama    : Deni Firmansyah<br>
             Alamat  : jalan jendral sudirman no 18<BR>
             NO telp : 087826318036<br>
