@@ -1,0 +1,30 @@
+body {
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    color: darkblue;
+    font-family: comic sans ms;
+    font-size: 60px;
+    text-align: center;
+}
+h3 a{
+    color: aliceblue;
+
+}
+h4{
+    font-style: italic;
+    text-align: right;
+}
+p {
+    color: sandybrown;
+    text-align: center;
+}
+.merah{
+    color: black;
+    text-align:center;
+}
+a:hover{
+    color: red;
+
+}
