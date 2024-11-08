@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color:#eaeaea;
+    background-image: url(blek.png.png);
+    color: #f8f8f8;
+    font-style: italic;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color:#091057;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+
+.header a {
+    text-decoration: none;
+    color:#eaf0f4;
+    padding: 3px;
+    
+}
+
+.header a:hover {
+    background-color: red;
+    color: white;
+}
+
+
+.hero {
+    height:300px;
+    background-image: url(ml.png.jpeg);
+    background-size: cover;
+    background-position: 0 -110px;
+    border-bottom: 5px solid lightslategray;
+    border-top: 5px solid lightslategray;
+}
+
+
+
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 20px;
+    font-weight: bold
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+.content .penulis a {
+
+    color: salmon;
+    text-decoration: none; 
+}
+.content p {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+
+.hero1{
+
+    background-color: lightslategray;
+    margin-top: 20px;
+}
+
+.menu{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a href{
+    padding-right: 20px;
+
+}
+
+.container1{
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.gallery li{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border: 5px solid #ddd;
+    float: left;
+    margin-right:  20px;
+    position: relative;
+    margin-bottom: 20px;
+  
+}
+
+.gallery li,
+.gallery li a img,
+.gallery li span {
+    border-radius: 50%;
+
+
+}
+
+.gallery li span {
+
+        display: block;
+        width: 120px;
+        height: 120px;
+        background-color: rgba(200,200,200,.5);
+        position: absolute;
+        top: 0;
+        text-align: center;    
+        line-height: 120px;
+        color: #ddd;
+        text-shadow: 1px 1px 1px #ddd;
+        transform: scale(0) rotate(0);
+        opacity: 0;
+        transition: .3s;
+    
+
+}
+.gallery li a:hover span {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+   
+    
+ 
+}
+
+.clear {
+    clear:both;
+}
+
+
+
+/* overlay */
+
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0);
+    z-index: 9999;
+    transition: 8s;
+    text-align: center;
+    padding: 100px 0;
+
+}
+.overlay:target{
+    height: auto;
+    width: auto;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.7);
+}
+
+.overlay img{
+    max-height: 100%;
+    box-shadow: 2px 2px 7px rgba(0,0,0,.5);
+
+}
+.overlay:target img{
+    animation: fadeAjah 1s;
+    border-radius: 0;
+}
+    
+.overlay .close {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -20px;
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid white;
+    line-height: 14px;
+    padding: 5px;
+    opacity: 0;
+  
+}
+
+.overlay:target .close {
+    animation: SlideDownFade .8s .8s forwards;
+}
+
+.overlay:target .next{
+    animation:fadeAjah  .5s .5s forwards;
+}
+
+.overlay:target .prev {
+    animation: fadeAjah .5s .5s forwards;
+}
+
+
+/* navigasi */
+ .next, .prev {
+    width: 57px;
+    height: 93px;
+    background-image: url(next.png);
+    position: absolute;
+    text-indent: -9999px;
+    top: 40%;
+    margin-left: 50px;
+    opacity: 0;
+
+ }
+
+ .prev {
+    background-image: url(prev.png);
+    margin-left: -80px;
+ }
+
+
+
+
+
+/* Animasi */
+
+@keyframes fadeAjah {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomdanFade{
+    0% {
+        transform: scale(0);
+        opacity: 0;
+
+    }
+
+    100%{
+        transform: scale(1);
+
+
+    }
+}
+
+@keyframes SlideDownFade {
+    0%{
+        opacity: 0;
+        margin-top: -20px;
+    }
+
+    100%{
+        opacity: 1;
+        margin-top: 0;
+
+    }
+    
+    
+}
+
+
+
