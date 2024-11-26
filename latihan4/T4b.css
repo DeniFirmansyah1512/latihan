@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color:#eaeaea;
+    background-image: url(dark.jpg);
+    color: #f8f8f8;
+    font-style: italic;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color:#de108b;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color:#eaf0f4;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: red;
+    color: white;
+}
+
+
+.hero {
+    height:400px;
+    background-image: url(game.jpg);
+    background-size: cover;
+    background-position: 0 -180px;
+    border-bottom: 5px solid lightskyblue;
+    border-top: 5px solid salmon;
+}
+.hero2{
+    height: 400px;
+    background-image: url(top.jog.webp);
+    background-size: cover;
+    background-position: 0- 180px;
+    border-bottom: 5px lightskyblue;
+    border-top: 5px lightskyblue;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 20px;
+    font-weight: bold
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+.content .penulis a {
+
+    color: salmon;
+    text-decoration: none; 
+}
+.content p {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+p {
+    text-align: center;
+}
+
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
+}
